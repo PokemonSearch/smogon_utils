@@ -1,0 +1,17 @@
+{
+  "name": "smogon_utils",
+  "version": "1.0.0",
+  "description": "Smogon-related utilies for processing via remote API calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index"
+  },
+  "author": "CheeseMans",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1611.0",
+    "express": "^4.19.2",
+    "pokemon-showdown": "^0.11.9"
+  }
+}
